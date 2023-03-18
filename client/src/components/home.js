@@ -1,44 +1,77 @@
 import React from "react";
 import myImage from "./images/abhinav.jpg"
+import cLang from "./images/OIP.jpg"
+import Cpp from "./images/C++.jpg"
+import Python from "./images/PythonImage.jpg"
+import Java from "./images/Java.jpg"
+import Js from "./images/Js.jpg"
+import Linux from "./images/LinuxLogo.jpg"
+import bash from "./images/bash.jpg"
+import pwsh from "./images/pwsh.jpg"
+import MERN from "./images/MERN.jpg"
+import Postman from "./images/Postman.jpg"
+import dg from "./images/git_Github.jpg"
 import "./home.css"
 
 export const Home = () => {
     return(
         <div className="mainboxclass">
             <div className="box1"> 
-            <img src={myImage} class="rounded float-right" alt="..." height={200} width={200}></img>
-                <h1 class="display-4">Hi! I am Abhinav Sharma!<br/> A Developer interested<br/>in solving problems with Tech!</h1>
+            <img src={myImage} class="rounded float-right" alt="..." height={300} width={300}></img>
+            <blockquote class="blockquote text-center">
+            <h1>
+            Hi! I am Abhinav Sharma!<br/>
+            <small class="text-muted">A Developer passionate about Tech!</small>
+            </h1>
+            </blockquote>
             </div>
 
             <div className="box3">
                 <br/>
-                <br/>
-                <br/>
-                <br/>
                 <h1 class="display-4">Languages Known: </h1>
-                <ul class="list-group">
-                    <li class="list-group-item">C</li>
-                    <li class="list-group-item">C++</li>
-                    <li class="list-group-item">Python</li>
-                    <li class="list-group-item">Java</li>
-                    <li class="list-group-item">Javascript</li>
-                    <li class="list-group-item">Bash</li>
-                    <li class="list-group-item">Powershell</li>
-                </ul>
+                <div class="container">
+                    <div class="row align-items-start">
+                        <div class="col">
+                        <img src={cLang} class="img-thumbnail" alt="..."></img>
+                        </div>
+                        <div class="col">
+                        <img src={Cpp} class="img-thumbnail" alt="..."></img>
+                        </div>
+                        <div class="col">
+                        <img src={Python} class="img-thumbnail" alt="..."></img>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col">
+                        <img src={Java} class="img-thumbnail" alt="..."></img>
+                        </div>
+                        <div class="col">
+                        <img src={Js} class="img-thumbnail" alt="..."></img>
+                        </div>
+                        <div class="col">
+                        <img src={bash} class="img-thumbnail" alt="..."></img>
+                        </div>
+                    </div>
+                    <div class="row align-items-end">
+                        <div class="col">
+                        <img src={pwsh} class="img-thumbnail" alt="..."></img>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div className="box4">
+                <br/>
+                <br/>
                 <h1 class="display-4">Techonologies Known: </h1>
-                <ul class="list-group">
-                    <li class="list-group-item">MongoDB</li>
-                    <li class="list-group-item">ExpressJs</li>
-                    <li class="list-group-item">NodeJs</li>
-                    <li class="list-group-item">ReactJs</li>
-                    <li class="list-group-item">Git</li>
-                    <li class="list-group-item">GitHub</li>
-                    <li class="list-group-item">Postman</li>
-                    <li class="list-group-item">Linux</li>
-                </ul>
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                        <div class="col"><img src={MERN} class="img-thumbnail" alt="..."></img></div>
+                        <div class="col"><img src={dg} class="img-thumbnail" alt="..."></img></div>
+                        <div class="col"><img src={Postman} class="img-thumbnail" alt="..."></img></div>
+                        <div class="col"><img src={Linux} class="img-thumbnail" alt="..."></img></div>
+                    </div>
+                </div>
             </div>
         </div>
     );
