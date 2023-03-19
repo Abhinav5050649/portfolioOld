@@ -17,44 +17,50 @@ export const Home = () => {
     return(
         <div className="mainboxclass">
             <div className="box1"> 
-            <img src={myImage} class="rounded float-right" alt="..." height={300} width={300}></img>
-            <blockquote class="blockquote text-center">
-            <h1>
-            Hi! I am Abhinav Sharma!<br/>
-            <small class="text-muted">A Developer passionate about Tech!</small>
-            </h1>
-            </blockquote>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <blockquote class="blockquote text-center">
+                                <h1 class="display-4">Hi! I am Abhinav Sharma!</h1>
+                                <h1 class="display-4">A Developer passionate about Tech!</h1>
+                            </blockquote>
+                        </div>
+                        <div class="col">    
+                            <img src={myImage} class="rounded float-right" alt="..." height={399} width={320}></img>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div className="box3">
                 <br/>
-                <h1 class="display-4">Languages Known: </h1>
+                <h1 class="display-4">Programming Languages Known: </h1>
                 <div class="container">
                     <div class="row align-items-start">
                         <div class="col">
-                        <img src={cLang} class="img-thumbnail" alt="..."></img>
+                            <img src={cLang} class="img-thumbnail" alt="..." height={175} width={175}></img>
                         </div>
                         <div class="col">
-                        <img src={Cpp} class="img-thumbnail" alt="..."></img>
+                            <img src={Cpp} class="img-thumbnail" alt="..." height={130} width={160}></img>
                         </div>
                         <div class="col">
-                        <img src={Python} class="img-thumbnail" alt="..."></img>
+                            <img src={Python} class="img-thumbnail" alt="..." height={175} width={175}></img>
                         </div>
                     </div>
                     <div class="row align-items-center">
                         <div class="col">
-                        <img src={Java} class="img-thumbnail" alt="..."></img>
+                            <img src={Java} class="img-thumbnail" alt="..." height={125} width={140}></img>
                         </div>
                         <div class="col">
-                        <img src={Js} class="img-thumbnail" alt="..."></img>
+                            <img src={Js} class="img-thumbnail" alt="..." height={175} width={175}></img>
                         </div>
                         <div class="col">
-                        <img src={bash} class="img-thumbnail" alt="..."></img>
+                            <img src={bash} class="img-thumbnail" alt="..." height={195} width={185}></img>
                         </div>
                     </div>
                     <div class="row align-items-end">
                         <div class="col">
-                        <img src={pwsh} class="img-thumbnail" alt="..."></img>
+                            <img src={pwsh} class="img-thumbnail" alt="..." height={175} width={175}></img>
                         </div>
                     </div>
                 </div>
