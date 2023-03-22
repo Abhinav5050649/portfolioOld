@@ -21,7 +21,7 @@ export const Home = () => {
                     <div class="row">
                         <div class="col">
                             <blockquote class="blockquote text-center">
-                                <h1 class="display-4">Hi! I am Abhinav Sharma!</h1>
+                                <h1 class="display-4"><strong>Hi! I am Abhinav Sharma!</strong></h1>
                                 <h1 class="display-4">A Developer passionate about Tech!</h1>
                             </blockquote>
                         </div>
@@ -34,7 +34,7 @@ export const Home = () => {
 
             <div className="box3">
                 <br/>
-                <h1 class="display-4">Programming Languages Known: </h1>
+                <h1 class="display-4"><strong>Programming Languages Known: </strong></h1>
                 <div class="container">
                     <div class="row align-items-start">
                         <div class="col">
@@ -69,7 +69,7 @@ export const Home = () => {
             <div className="box4">
                 <br/>
                 <br/>
-                <h1 class="display-4">Techonologies Known: </h1>
+                <h1 class="display-4"><strong>Techonologies Known: </strong></h1>
                 <div class="container">
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
                         <div class="col"><img src={MERN} class="img-thumbnail" alt="..."></img></div>
