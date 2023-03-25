@@ -1,16 +1,6 @@
 import React from "react";
 import myImage from "./images/abhinav.jpg"
-import cLang from "./images/OIP.jpg"
-import Cpp from "./images/C++.jpg"
-import Python from "./images/PythonImage.jpg"
-import Java from "./images/Java.jpg"
-import Js from "./images/Js.jpg"
-import Linux from "./images/LinuxLogo.jpg"
-import bash from "./images/bash.jpg"
-import pwsh from "./images/pwsh.jpg"
-import MERN from "./images/MERN.jpg"
-import Postman from "./images/Postman.jpg"
-import dg from "./images/git_Github.jpg"
+import { Icon } from '@iconify/react';
 import "./home.css"
 
 export const Home = () => {
@@ -38,29 +28,29 @@ export const Home = () => {
                 <div class="container">
                     <div class="row align-items-start">
                         <div class="col">
-                            <img src={cLang} class="img-thumbnail" alt="..." height={175} width={175}></img>
+                            <Icon icon="skill-icons:c" height={150} width={150}/>
                         </div>
                         <div class="col">
-                            <img src={Cpp} class="img-thumbnail" alt="..." height={130} width={160}></img>
+                            <Icon icon="logos:c-plusplus" height={150} width={150}/>
                         </div>
                         <div class="col">
-                            <img src={Python} class="img-thumbnail" alt="..." height={175} width={175}></img>
+                            <Icon icon="skill-icons:python-dark" height={150} width={150}/>
                         </div>
                     </div>
                     <div class="row align-items-center">
                         <div class="col">
-                            <img src={Java} class="img-thumbnail" alt="..." height={125} width={140}></img>
+                            <Icon icon="logos:java" height={145} width={145}/>
                         </div>
                         <div class="col">
-                            <img src={Js} class="img-thumbnail" alt="..." height={175} width={175}></img>
+                            <Icon icon="skill-icons:javascript" height={140} width={140}/>
                         </div>
                         <div class="col">
-                            <img src={bash} class="img-thumbnail" alt="..." height={195} width={185}></img>
+                            <Icon icon="skill-icons:bash-light" height={140} width={140}/>
                         </div>
                     </div>
                     <div class="row align-items-end">
                         <div class="col">
-                            <img src={pwsh} class="img-thumbnail" alt="..." height={175} width={175}></img>
+                            <Icon icon="skill-icons:powershell-dark" height={150} width={150}/>
                         </div>
                     </div>
                 </div>
@@ -72,10 +62,18 @@ export const Home = () => {
                 <h1 class="display-4"><strong>Techonologies Known: </strong></h1>
                 <div class="container">
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-                        <div class="col"><img src={MERN} class="img-thumbnail" alt="..."></img></div>
-                        <div class="col"><img src={dg} class="img-thumbnail" alt="..."></img></div>
-                        <div class="col"><img src={Postman} class="img-thumbnail" alt="..."></img></div>
-                        <div class="col"><img src={Linux} class="img-thumbnail" alt="..."></img></div>
+                        <div class="col"><Icon icon="logos:mongodb-icon" height={150} width={150}/></div>
+                        <div class="col"><Icon icon="skill-icons:expressjs-light" height={145} width={145}/></div>
+                        <div class="col"><Icon icon="vscode-icons:file-type-reactjs" height={150} width={150}/></div>
+                        <div class="col"><Icon icon="logos:nodejs-icon" height={150} width={150}/></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                        <div class="col"><Icon icon="flat-color-icons:linux" height={150} width={150}/></div>
+                        <div class="col"><Icon icon="logos:postman-icon" height={150} width={150}/></div>
+                        <div class="col"><Icon icon="tabler:brand-git" height={150} width={150}/></div>
+                        <div class="col"><Icon icon="arcticons:github" height={150} width={150}/></div>
                     </div>
                 </div>
             </div>
