@@ -9,7 +9,6 @@ const Navbar = ()=> {
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                <a class="nav-link" href="/">About Me <span class="sr-only">(current)</span></a>
                 <a class="nav-link" href="/projects">Projects</a>
                 <a class="nav-link" href="/contact">Contact Me</a>
                 </div>
