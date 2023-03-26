@@ -3,7 +3,7 @@
     flex-flow: column;
     padding: 10px;
     flex-direction: column;
-    flex-shrink: 20px;
+    flex-shrink: inherit;
     margin: 20px;
 }
 
@@ -11,9 +11,9 @@
   width: 50%;
   text-align: center;
   align-items:flex-start;
-  margin: 20px 20px 70px 375px;
+  margin: 20px 20px 70px 365px;
   padding: 10px;
   flex-direction: column;
   -ms-flex-align: start;
-  flex-shrink: 20px;
+  flex-shrink: inherit;
 }
