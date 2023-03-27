@@ -16,7 +16,7 @@ export const Home = () => {
                             </blockquote>
                         </div>
                         <div class="col">    
-                            <img src={myImage} class="rounded float-right" alt="..." height={399} width={320}></img>
+                            <img src={myImage} class="rounded float-right" alt="..." height={380} width={335}></img>
                         </div>
                     </div>
                 </div>
