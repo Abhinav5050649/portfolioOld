@@ -1,5 +1,4 @@
 import React from "react";
-import myImage from "./images/abhinav.jpg"
 import { Icon } from '@iconify/react';
 import "./home.css"
 
@@ -7,16 +6,13 @@ export const Home = () => {
     return(
         <div className="mainboxclass">
             <div className="box1"> 
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
+                <div className="container">
+                    <div className="row">
+                        <div className="col intro-content">
                             <blockquote class="blockquote text-center">
                                 <h1 class="display-4"><strong>Hi! I am Abhinav Sharma!</strong></h1>
                                 <h1 class="display-4">A Developer passionate about Tech!</h1>
                             </blockquote>
-                        </div>
-                        <div class="col">    
-                            <img src={myImage} class="rounded float-right" alt="..." height={399} width={320}></img>
                         </div>
                     </div>
                 </div>
